@@ -16,9 +16,6 @@ public class SearchPage {
     public static final Target  CHECK_SPORTS = Target.the("check sports")
             .located(By.id("0f48f889-92f2-4ac1-90b6-da81cfcbcdf8"));
 
-    public static final Target  NEWS = Target.the("news")
-            .located(By.className("titulo-noticia"));
-
     public static final Target  TEXT_CONFIRM_PAGE = Target.the("text confirm page")
-            .located(By.xpath("//span[contains(text(),'Urban Bike se metió en el “rancho” en la comuna 13')]"));
+            .located(By.xpath("//span[contains(text(),'Henry Agudelo')]"));
 }

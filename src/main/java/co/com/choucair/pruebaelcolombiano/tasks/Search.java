@@ -7,6 +7,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
+import net.serenitybdd.screenplay.waits.Wait;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import net.thucydides.core.model.TakeScreenshots;
 
@@ -31,8 +32,7 @@ public class Search implements Task {
                 WaitUntil.the(SearchPage.CHECK_IMAGES, isVisible()).forNoMoreThan(5).seconds(),
                 Click.on(SearchPage.CHECK_IMAGES),
                 WaitUntil.the(SearchPage.CHECK_SPORTS, isVisible()).forNoMoreThan(5).seconds(),
-                Click.on(SearchPage.CHECK_SPORTS),
-                Click.on(SearchPage.NEWS));
+                Click.on(SearchPage.CHECK_SPORTS));
 
     }
 }
