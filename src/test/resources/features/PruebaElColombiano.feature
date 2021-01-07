@@ -27,5 +27,5 @@
       |strSearch|
       |deportes |
       Then he will find information about sports
-      |strTextTwo                                        |
-      |URBAN BIKE SE METIÓ EN EL “RANCHO” EN LA COMUNA 13|
+      |strTextTwo|
+      |CICLISMO  |

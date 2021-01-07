@@ -17,5 +17,5 @@ public class SearchPage {
             .located(By.id("0f48f889-92f2-4ac1-90b6-da81cfcbcdf8"));
 
     public static final Target  TEXT_CONFIRM_PAGE = Target.the("text confirm page")
-            .located(By.xpath("//span[contains(text(),'Henry Agudelo')]"));
+            .located(By.xpath("//li[contains(text(),'Ciclismo')]"));
 }

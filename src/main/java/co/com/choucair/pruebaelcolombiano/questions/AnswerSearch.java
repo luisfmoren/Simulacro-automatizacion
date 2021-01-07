@@ -1,6 +1,6 @@
 package co.com.choucair.pruebaelcolombiano.questions;
 
-import co.com.choucair.pruebaelcolombiano.userinterface.RegisterPage;
+
 import co.com.choucair.pruebaelcolombiano.userinterface.SearchPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;

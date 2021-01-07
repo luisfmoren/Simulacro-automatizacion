@@ -32,7 +32,8 @@ public class Search implements Task {
                 WaitUntil.the(SearchPage.CHECK_IMAGES, isVisible()).forNoMoreThan(5).seconds(),
                 Click.on(SearchPage.CHECK_IMAGES),
                 WaitUntil.the(SearchPage.CHECK_SPORTS, isVisible()).forNoMoreThan(5).seconds(),
-                Click.on(SearchPage.CHECK_SPORTS));
+                Click.on(SearchPage.CHECK_SPORTS),
+                WaitUntil.the(SearchPage.TEXT_CONFIRM_PAGE, isVisible()).forNoMoreThan(5).seconds());
 
     }
 }

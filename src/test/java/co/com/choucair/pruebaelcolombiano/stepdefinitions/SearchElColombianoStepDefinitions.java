@@ -35,7 +35,7 @@ public class SearchElColombianoStepDefinitions {
 
     @Then("^he will find information about sports$")
     public void heWillFindInformationAboutSports(List<ElColombianoData> elColombianoData) {
-       OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(AnswerSearch.toThe(elColombianoData.get(0).getStrText())));
+       OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(AnswerSearch.toThe(elColombianoData.get(0).getStrTextTwo())));
 
     }
 }
