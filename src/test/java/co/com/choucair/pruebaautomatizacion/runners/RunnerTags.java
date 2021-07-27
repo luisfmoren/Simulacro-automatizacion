@@ -1,4 +1,4 @@
-package co.com.choucair.pruebaelcolombiano.runners;
+package co.com.choucair.pruebaautomatizacion.runners;
 
 
 import cucumber.api.CucumberOptions;
@@ -7,9 +7,8 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = "src/test/resources/features/PruebaElColombiano.feature",
-        tags = "@scenario3",
-        glue = "co.com.choucair.pruebaelcolombiano.stepdefinitions",
+@CucumberOptions(features = "src/test/resources/features/toolQa.feature",
+        glue = "co.com.choucair.pruebaautomatizacion.stepdefinitions",
         snippets = SnippetType.CAMELCASE)
 public class RunnerTags {
 }
